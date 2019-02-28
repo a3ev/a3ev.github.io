@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!-- макет для проверки  https://a3ev.github.io/Fargo_background2.jpg
+     или 				https://d.pr/free/i/y7dm1d  -->
+<!-- изменения в макете по сравнению с прошлой неделей:
+1. установлены целые значения для размеров шрифтов. Стало намного проще.
+2. Блоки подвинут вправо, чтобы точно попасть в колонки бутстрапа.
+3. Блок с боковой ссылкой сдвинут вниз, чтобы выровнять с абзацем. -->
+
+<head>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Шумадан</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900|PT+Sans+Caption|PT+Sans:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+
+
+  <style>
+
+			
+.title_bar 		{
+			margin-top: 30px;
+			margin-bottom: 41px;
+<!-- Блок для полосы с логотипом и меню -->
+} 
+
+
+.nav 		{font-family: "Montserrat";
+			font-weight: 400;
+			font-size: 20px;
+			margin-top: 12px;
+			margin-left: 64px;
+} 
+
+.nav-link	{color: #0277BD;
+			text-decoration: none;
+			margin-right: 1px;
+} 
+
+.nav-link.disabled { color: #000; 
+					margin-left: 30px;
+<!-- Сомневаюсь, как будет работать, если неактивный пункт будет в середине -->
+}
+
+  
+h1,h2      {font-family: "Montserrat"
+			}
+
+h1 		   {font-size: 50px;
+			font-weight: 800;
+			line-height: 1.11;
+			margin-bottom: 38px;
+<!-- Это заголовок -->
+			}
+		
+
+h2 		   {font-size: 29px;
+			font-weight: 700;
+			line-height: 1.3;
+			margin-top: 40px;	
+			margin-bottom: 10px;
+<!-- Это подзаголовки -->
+			}
+
+
+a 			{color: #0277BD;	
+			text-decoration: underline;
+			<!-- цвет ссылок и подчеркивание в соответствии с макетом -->
+			}
+
+
+.text	{font-family: "PT Sans";
+			font-size: 19px;
+			line-height: 25px;
+			margin-bottom: 17px;
+			padding-right: 5px;
+<!-- параметры основного текста -->
+			
+}
+
+.factoid_figure {font-family: "Montserrat";
+				font-weight: 700;
+				font-size: 83px;
+				line-height: 66px;
+				color: #039BE5;
+<!-- большие цифры в фактоиде. Интерлиньяж подобран чтобы выровнять с краем абзаца без отрицательного маржина--> 
+} 
+
+ 
+.factoid 	{font-family: "PT Sans Caption";
+			font-size: 16.5px;
+			line-height: 21px;
+			margin-top: -8px;
+			margin-left: 3px;
+<!-- текст в фактоиде. Отрицательный margin-top настроен для установки под большой цифрой в соответствии с макетом -->
+} 
+
+.caption 	{font-family: "Montserrat";
+			font-weight: 400;
+			font-size: 12.5px;
+			line-height: 16px;
+			margin-top: 7px;
+	
+<!-- подпись к рисункам -->
+} 	
+
+.side-link	{font-family: 'PT Sans', sans-serif;
+			font-size: 14.5px;
+			line-height: 18px;
+			margin-left: 2px;
+	
+<!-- для ссылок с описаниями сбоку на правом поле --
+отрицательный margin-top введен для соответствия с макетом -->
+}
+
+
+
+.footer 	{font-family: 'PT Sans', sans-serif;
+			font-size: 16px;
+			margin-top: 142px;
+			margin-bottom: 50px;
+<!-- Подвал -->
+} 	
+
+	
+</style>
+ 
+ 
+ 
+</head>
+<body>
+ <!-- img src="https://a3ev.github.io/Fargo_background2.jpg" style="position: absolute; top: 0; left: 0; opacity: 20"-->
+  
+ <div class="container">
+	 <div class="title_bar">
+		<div class="row">
+			<div class="col-md-4 offset-1">
+					<img class="img-fluid" src="https://a3ev.github.io/logo_far.png">
+			</div>
+			<div class="col-md-7"> 
+				<ul class="nav">
+					  <li class="nav-item">
+						<a class="nav-link" href="#">О компании</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Магазин</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link disabled" href="#">Блог</a>
+				  </li>
+				</ul>
+			</div>
+		</div>	
+	</div>
+</div>
+
+
+
+ <div class="container">
+	<div class="row">
+		<div class="col-md-11 offset-1">
+			 <h1>Как умный багаж Тревелбот защищен от происшествий в&nbsp;авиаперелетах</h1>	
+		</div>
+	</div>	
+</div>
+
+	
+<div class="container">
+    <div class="row">
+		<div class="col-md-8 offset-1">
+			<div class="text">
+				<p>Умный багаж Тревелбот &ndash; это чемоданы-скутеры и&nbsp;чемоданы, которые следуют за хозяином. Они&nbsp;не&nbsp;теряются, сообщают владельцу о&nbsp;своем местоположении, заряжают его&nbsp;телефон и&nbsp;ноутбук.  </p>
+			</div>
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-md-8 offset-1">
+			<div class="text">
+				<p>Внутри умных чемоданов установлены аккумуляторы и&nbsp;средства для&nbsp;обмена данными.  Для&nbsp;таких устройств Международная ассоциация воздушного транспорта (МАВТ) составила руководство по&nbsp;безопасности в&nbsp;авиаперелетах.  Мы&nbsp;расскажем, как&nbsp;Тревелбот выполняет требования МАВТ, и&nbsp;какие правила важны для&nbsp;спокойных путешествий.</p>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="side-link">
+				<p><a href="https://www.iata.org/whatwedo/safety/Documents/IATA-Guidance-on-Smart-Baggage-with-integrated-lithium-batteries-and-electronics.pdf">Smart Baggage with&nbsp;Integrated&nbsp;Lithium Batteries&nbsp;and/or&nbsp;Electronics</a> Рекомендации&nbsp;МАВТ, 2017&nbsp;год</p>
+			</div>
+		</div>	
+	</div>	
+</div>
+
+ <div class="container">
+	<div class="row">
+		<div class="col-md-10 offset-1">
+			<h2>Литий-ионные аккумуляторы в&nbsp;путешествиях</h2>			
+		</div>
+	</div>	
+</div>
+	
+<div class="container">
+    <div class="row">
+		<div class="col-md-10 offset-1"> 
+			<div>
+				<img class="img-fluid" src="https://a3ev.github.io/bat2.jpg" style="margin-left: -2px; margin-top: 2px;">
+			</div>
+		</div>
+	</div>
+</div>	
+	
+ <div class="container">
+    <div class="row">
+		<div class="col-md-6 offset-1"> 
+			<div class="caption"> 
+				<p>Типичная литий-ионная батарея состоит из&nbspнескольких электрохимических ячеек и&nbsp;электронного блока управления</p>
+			</div>
+		</div>
+	</div>
+</div>	
+
+ <div class="container">
+	<div class="row">
+		<div class="col-md-8 offset-1">
+			<div class="text">
+				<p>В умных чемоданах работают такие же&nbsp;литий-ионные батареи, как&nbsp;и&nbsp;в&nbsp;ноутбуках, смартфонах, электронных сигаретах и&nbsp;автомобилях Тесла.  Эти&nbspбатареи – источник опасности, потому что сохраненная в&nbspних химическая энергия может превратиться в&nbsp;тепло и&nbsp;вызвать возгорание. </p>
+				<p>В путешествии устройства с&nbsp;литий-ионными батареями попадают в&nbspжесткие условия. Удары и&nbsp;перепады температуры могут разрушить структуру ячеек, что&nbspвызовет короткое замыкание. Ячейка разогреется и&nbsp;выведет из&nbsp;строя всю&nbsp;батарею.</p>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="factoid_figure">
+				<p>46</p>
+			</div>	
+			<div class="factoid">	
+				<p>происшествий с&nbsp;литий-ионными батареями зарегистрировано в&nbsp;2018&nbsp;году</p>
+			</div>	
+		</div>	
+	</div>	
+</div>	
+
+
+<div class="container">
+	<div class="footer">
+		<div class="row">
+			<div class="col-md-4 offset-1">
+				<p>ООО «Фаргоу»</p>	
+			</div>
+			<div class="col-md-7">
+				<p>111111, Москва, 3-я ул. Строителей, 25<span style="margin-left:13px">(095) 232 22 23</span></p>	
+			</div>				
+		</div>	
+	</div>
+</div>
+
+
+
+</body></html>
